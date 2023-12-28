@@ -9,9 +9,6 @@ jobs:
   build-bookmarker-api:
     name: Build bookmarker-api
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: .
 
     steps:
       - uses: actions/checkout@v3
